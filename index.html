@@ -273,7 +273,9 @@
 
     <div class="profile-layout">
       <div class="profile-photo">
-        <div class="photo-placeholder" role="img" aria-label="代表 東 貴志（写真差替え予定）">
+        <img src="profile.jpg" alt="代表 東 貴志（あずま たかし）公認会計士・税理士" class="photo-img"
+             onerror="this.style.display='none';var f=document.getElementById('photoFallback');if(f)f.style.display='flex';" />
+        <div class="photo-placeholder" id="photoFallback" style="display:none" role="img" aria-label="代表写真（準備中）">
           <span>PHOTO</span>
           <small>写真差替え予定</small>
         </div>
