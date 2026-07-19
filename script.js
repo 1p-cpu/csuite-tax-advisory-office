@@ -48,6 +48,11 @@
   );
   targets.forEach(function (el) { el.classList.add("reveal"); });
 
+  /* 全要素を確実に表示するフェイルセーフ */
+  function revealAll() {
+    targets.forEach(function (el) { el.classList.add("visible"); });
+  }
+
   if ("IntersectionObserver" in window) {
     var io = new IntersectionObserver(function (entries) {
       entries.forEach(function (entry) {
@@ -56,10 +61,18 @@
           io.unobserve(entry.target);
         }
       });
-    }, { threshold: 0.12, rootMargin: "0px 0px -40px 0px" });
+    }, { threshold: 0.01, rootMargin: "0px 0px -40px 0px" });
     targets.forEach(function (el) { io.observe(el); });
+
+    /* 保険1：一定時間経過後は無条件で表示（監視が発火しない環境への対策） */
+    setTimeout(revealAll, 3000);
+
+    /* 保険2：非表示タブで読み込まれた場合、表示に切り替わった時点で確実に表示 */
+    document.addEventListener("visibilitychange", function () {
+      if (!document.hidden) setTimeout(revealAll, 600);
+    });
   } else {
-    targets.forEach(function (el) { el.classList.add("visible"); });
+    revealAll();
   }
 
   /* --- FAQ: 開いたら他を閉じる（アコーディオン） --- */
