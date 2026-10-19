@@ -336,6 +336,37 @@ a.card:hover .card-more { color: var(--accent-d); }
 .price-notes li { list-style: none; }
 .table-wrap { overflow-x: auto; -webkit-overflow-scrolling: touch; }
 
+/* ===== Plans (C-suite Tax Advisory) ===== */
+.plan-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 18px; align-items: stretch; }
+.plan { position: relative; display: flex; flex-direction: column; border: 1px solid var(--line); border-radius: 6px; background: var(--bg); padding: 30px 24px 26px; }
+.plan--featured { border-color: var(--navy); box-shadow: 0 0 0 1px var(--navy) inset; }
+.plan--start { background: var(--bg-soft); }
+.plan-badge { position: absolute; top: -12px; left: 20px; background: var(--accent-d); color: #fff; font-size: 11.5px; font-weight: 700; letter-spacing: .08em; padding: 4px 10px; border-radius: 2px; }
+.plan-name { font-family: var(--latin); font-size: 26px; font-weight: 600; color: var(--navy); line-height: 1.2; }
+.plan-for { font-size: 13px; color: var(--muted); line-height: 1.7; margin: 8px 0 16px; min-height: 3.4em; }
+.plan-price { font-family: var(--serif); font-weight: 600; color: var(--navy); font-size: 15px; padding: 14px 0; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+.plan-price strong { font-size: 28px; letter-spacing: .02em; }
+.plan-price small { display: block; font-family: var(--sans); font-weight: 400; font-size: 12px; color: var(--muted); margin-top: 4px; }
+.plan-mtg { margin: 14px 0 6px; font-size: 13.5px; font-weight: 700; color: var(--navy); }
+.plan-mtg span { display: inline-block; font-weight: 500; color: var(--accent-d); font-size: 12px; letter-spacing: .08em; margin-right: 6px; }
+.plan-list { list-style: none; margin-top: 8px; }
+.plan-list li { font-size: 13.5px; color: var(--slate); line-height: 1.75; padding: 5px 0 5px 18px; position: relative; }
+.plan-list li::before { content: ""; position: absolute; left: 0; top: 13px; width: 6px; height: 6px; border-top: 1px solid var(--accent); border-right: 1px solid var(--accent); transform: rotate(45deg); }
+.plan-list li.plus { color: var(--navy); font-weight: 600; }
+.plan-list li.plus::before { border-color: var(--navy); }
+.plan-foot { margin-top: auto; padding-top: 18px; font-size: 12.5px; color: var(--muted); line-height: 1.7; }
+.common-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+.common-box { border: 1px solid var(--line); border-radius: 6px; background: var(--bg); padding: 26px 24px; }
+.common-box h3 { font-family: var(--serif); font-weight: 600; font-size: 17px; color: var(--navy); margin-bottom: 12px; padding-bottom: 10px; border-bottom: 2px solid var(--navy); }
+.common-box .check-list li { font-size: 14px; padding: 6px 0 6px 22px; }
+.common-box .check-list li::before { top: 15px; }
+.opt-list { display: grid; grid-template-columns: repeat(3, 1fr); gap: 6px 24px; list-style: none; }
+.opt-list li { font-size: 14px; color: var(--slate); line-height: 1.8; padding: 6px 0 6px 16px; position: relative; border-bottom: 1px solid var(--line-soft); }
+.opt-list li::before { content: ""; position: absolute; left: 0; top: 16px; width: 5px; height: 5px; background: var(--accent); border-radius: 50%; }
+@media (max-width: 1120px) { .plan-grid { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 960px) { .common-grid, .opt-list { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 600px) { .plan-grid, .common-grid, .opt-list { grid-template-columns: 1fr; } .plan-for { min-height: 0; } }
+
 /* ===== Service feature list (A, B, C...) ===== */
 .feature-list { list-style: none; display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
 .feature-list li { border: 1px solid var(--line); border-radius: 6px; padding: 26px 26px 24px; background: var(--bg); }
