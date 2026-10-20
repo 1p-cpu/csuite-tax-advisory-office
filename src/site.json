@@ -11,32 +11,82 @@
     "LP_SOLE": "https://1p-cpu.github.io/csuite-tax-advisory-sole/",
     "LP_START": "https://1p-cpu.github.io/ctax-start-pack/",
     "TEL": "03-6322-0964",
-    "TEL_LINK": "0363220964"
+    "TEL_LINK": "0363220964",
+    "LP_CXO": "https://csuite-cxo.neonsole64.chatgpt.site/review-v10"
   },
   "nav": [
-    { "label": "サービス", "path": "/services/" },
-    { "label": "事務所について", "path": "/about/" },
-    { "label": "代表紹介", "path": "/profile/" },
-    { "label": "FAQ", "path": "/faq/" },
-    { "label": "お問い合わせ", "path": "/contact/", "cta": true }
+    {
+      "label": "サービス",
+      "path": "/services/"
+    },
+    {
+      "label": "事務所について",
+      "path": "/about/"
+    },
+    {
+      "label": "代表紹介",
+      "path": "/profile/"
+    },
+    {
+      "label": "FAQ",
+      "path": "/faq/"
+    },
+    {
+      "label": "お問い合わせ",
+      "path": "/contact/",
+      "cta": true
+    }
   ],
   "footer": {
     "company": [
-      { "label": "事務所について（概要・アクセス）", "path": "/about/" },
-      { "label": "代表紹介", "path": "/profile/" },
-      { "label": "よくあるご質問", "path": "/faq/" },
-      { "label": "お問い合わせ", "path": "/contact/" },
-      { "label": "プライバシーポリシー", "path": "/privacy/" }
+      {
+        "label": "事務所について（概要・アクセス）",
+        "path": "/about/"
+      },
+      {
+        "label": "代表紹介",
+        "path": "/profile/"
+      },
+      {
+        "label": "よくあるご質問",
+        "path": "/faq/"
+      },
+      {
+        "label": "お問い合わせ",
+        "path": "/contact/"
+      },
+      {
+        "label": "プライバシーポリシー",
+        "path": "/privacy/"
+      }
     ],
     "services": [
-      { "label": "サービス一覧", "path": "/services/" },
-      { "label": "法人のお客様（税務顧問）", "path": "/services/corporate/" },
-      { "label": "個人事業主のお客様", "path": "/services/sole-proprietor/" },
-      { "label": "創業・小規模法人（C-Tax Start Pack）", "path": "/services/startup/" }
+      {
+        "label": "サービス一覧",
+        "path": "/services/"
+      },
+      {
+        "label": "法人のお客様（税務顧問）",
+        "path": "/services/corporate/"
+      },
+      {
+        "label": "個人事業主のお客様",
+        "path": "/services/sole-proprietor/"
+      },
+      {
+        "label": "創業・小規模法人（C-Tax Start Pack）",
+        "path": "/services/startup/"
+      }
     ],
     "related": [
-      { "label": "株式会社C-suite & Co.（経営・財務支援）", "path": "https://c-suitez.com/" },
-      { "label": "ザクトリン合同会社", "path": "https://zakutorin.jp/" }
+      {
+        "label": "株式会社C-suite & Co.（経営・財務支援）",
+        "path": "https://c-suitez.com/"
+      },
+      {
+        "label": "ザクトリン合同会社",
+        "path": "https://zakutorin.jp/"
+      }
     ]
   }
 }
