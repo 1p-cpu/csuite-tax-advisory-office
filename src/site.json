@@ -74,11 +74,7 @@
         "path": "/services/sole-proprietor/"
       },
       {
-        "label": "創業・小規模法人（C-Tax Start Pack）",
-        "path": "/services/startup/"
-      },
-      {
-        "label": "一人法人プラン",
+        "label": "一人法人専用プラン",
         "path": "/services/hitori-hojin/"
       }
     ],
