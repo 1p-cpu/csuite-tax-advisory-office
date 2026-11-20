@@ -525,3 +525,9 @@ a.card:hover .card-more { color: var(--accent-d); }
   .reveal { opacity: 1; transform: none; transition: none; }
   * { animation: none !important; }
 }
+
+/* TKC badge */
+.tkc-badge { display: inline-block; margin-top: 14px; line-height: 0; }
+.tkc-badge img { height: 34px; width: auto; display: block; }
+.tkc-badge--footer { background: #fff; padding: 8px 12px; border-radius: 6px; margin-top: 18px; }
+.tkc-badge--footer img { height: 28px; }
