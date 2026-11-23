@@ -12,7 +12,11 @@
     "LP_START": "https://1p-cpu.github.io/ctax-start-pack/",
     "TEL": "03-6322-0964",
     "TEL_LINK": "0363220964",
-    "LP_CXO": "https://csuite-cxo.neonsole64.chatgpt.site/review-v10"
+    "LP_CXO": "https://csuite-cxo.neonsole64.chatgpt.site/review-v10",
+    "INH_PRICE_A": "250,000円〜",
+    "INH_PRICE_B": "50,000円〜",
+    "INH_PRICE_C": "100,000円〜",
+    "INH_PRICE_D": "個別お見積り"
   },
   "nav": [
     {
@@ -76,6 +80,10 @@
       {
         "label": "一人法人専用プラン",
         "path": "/services/hitori-hojin/"
+      },
+      {
+        "label": "相続・承継",
+        "path": "/services/inheritance/"
       }
     ],
     "related": [

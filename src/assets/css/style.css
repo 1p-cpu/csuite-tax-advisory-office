@@ -531,3 +531,6 @@ a.card:hover .card-more { color: var(--accent-d); }
 .tkc-badge img { height: 34px; width: auto; display: block; }
 .tkc-badge--footer { background: #fff; padding: 8px 12px; border-radius: 6px; margin-top: 18px; }
 .tkc-badge--footer img { height: 28px; }
+
+.pain-item p a { color: inherit; text-decoration: none; display: block; }
+.pain-item p a:hover { color: var(--accent-d); }
