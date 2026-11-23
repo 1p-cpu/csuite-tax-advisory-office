@@ -537,3 +537,7 @@ a.card:hover .card-more { color: var(--accent-d); }
 
 .common-grid--2 { grid-template-columns: repeat(2, 1fr); }
 @media (max-width: 600px) { .common-grid--2 { grid-template-columns: 1fr; } }
+
+.card .btn-row { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-top: auto; }
+.card .btn-row .btn-card { margin-top: 0; }
+@media (max-width: 600px) { .card .btn-row { grid-template-columns: 1fr; } }
