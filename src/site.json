@@ -16,7 +16,8 @@
     "INH_PRICE_A": "250,000円〜",
     "INH_PRICE_B": "50,000円〜",
     "INH_PRICE_C": "100,000円〜",
-    "INH_PRICE_D": "個別お見積り"
+    "INH_PRICE_D": "個別お見積り",
+    "BPO_URL": "https://c-suitez.com/services/bpo/?utm_source=csuite-tax&amp;utm_medium=referral&amp;utm_campaign=bpo"
   },
   "nav": [
     {
@@ -90,6 +91,10 @@
       {
         "label": "株式会社C-suite & Co.（経営・財務支援）",
         "path": "https://c-suitez.com/"
+      },
+      {
+        "label": "管理部門BPO（株式会社C-suite & Co.）",
+        "path": "https://c-suitez.com/services/bpo/?utm_source=csuite-tax&utm_medium=referral&utm_campaign=bpo&utm_content=footer"
       },
       {
         "label": "ザクトリン合同会社",
